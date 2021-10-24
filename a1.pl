@@ -16,8 +16,7 @@ foreach $atrack (@a){
                                 foreach $etrack (@alpha){
                                         foreach $ftrack (@k){
 
-                                        print("$atrack$btrack$ctrack$dtrack$etra
-ck$ftrack\n");
+                                        print("$atrack$btrack$ctrack$dtrack$etrack$ftrack\n");
 
                                         }
                                 }
