@@ -6,9 +6,9 @@ import sys
 import requests
 from time import sleep
 
-with open("fullpalindromes.txt", 'r') as fh:
+with open("refinedpalindromes.txt", 'r') as fh:
     for line in fh:
-        search_term = line.rstrip()
+        search_term = line.rstrip() + ' +'
         headers = {"Ocp-Apim-Subscription-Key": key1}
         params = {"q": search_term, "textDecorations": True, "textFormat": "HTML"}
         for i in range(NUM_RETRIES):
